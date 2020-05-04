@@ -1,0 +1,27 @@
+.container{
+  margin-top: 30px;
+  width: 660px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  color: #7e7e7e;
+  font-family: bigTitleFont;
+  margin-bottom: 20px;
+
+  img{
+    width: 100%;
+  }
+
+  .desc{
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 1.1em;
+
+    strong{
+      font-weight: 900;
+      color: #252525;
+    }
+  }
+
+}
