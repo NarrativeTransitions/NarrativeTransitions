@@ -3,6 +3,7 @@ import style from '../css/App.module.scss'
 import Navigation from "./Navigation";
 import Taxonomy from "./Taxonomy";
 import Overview from "./Overview";
+import Usecase from "./Usecase";
 
 class App extends React.Component {
 
@@ -10,7 +11,7 @@ class App extends React.Component {
         super(props);
         this.state={
             current : 0,
-            pages : [<Taxonomy/>,<Overview/>]
+            pages : [<Taxonomy/>,<Overview/>,<Usecase/>]
         };
     }
 
