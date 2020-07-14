@@ -36,9 +36,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.video-react-icon-play-arrow:before, .video-react .video-react-bezel .video-react-bezel-icon-play:before, .video-react .video-react-play-control:before, .video-react .video-react-big-play-button:before {
+/*big play*/
+.video-react-icon-play-arrow:before, .video-react .video-react .video-react-play-control:before, .video-react .video-react-big-play-button:before {
   content: "";
   font-size: 60px;
+}
+
+/*little play*/
+.video-react-icon-play-arrow:before, .video-react .video-react-big-play-button:before, .video-react .video-react-play-control:before, .video-react .video-react-bezel .video-react-bezel-icon-play:before{
+  content: "";
 }
 
 .video-react-icon-play-circle-filled:before {
