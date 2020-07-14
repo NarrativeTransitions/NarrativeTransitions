@@ -38,6 +38,7 @@
 
 .video-react-icon-play-arrow:before, .video-react .video-react-bezel .video-react-bezel-icon-play:before, .video-react .video-react-play-control:before, .video-react .video-react-big-play-button:before {
   content: "";
+  font-size: 60px;
 }
 
 .video-react-icon-play-circle-filled:before {
@@ -370,13 +371,16 @@ body.video-react-full-window .video-react-fullscreen {
 }
 .video-react .video-react-big-play-button {
   font-size: 3em;
-  line-height: 1.5em;
-  height: 1.5em;
+  line-height: 3em;
+  height: 3em;
   width: 3em;
   display: block;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
   padding: 0;
   cursor: pointer;
   opacity: 1;
@@ -385,7 +389,7 @@ body.video-react-full-window .video-react-fullscreen {
   background-color: rgba(43, 51, 63, 0.7);
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
-  border-radius: 0.3em;
+  border-radius: 50%;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
