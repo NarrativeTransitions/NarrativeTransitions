@@ -42,8 +42,8 @@ class Navigation extends React.Component {
                     {/*logo*/}
                     <div className={style.logo}>Narrative Transitions</div>
                     {/*option*/}
-                    <div className={this.state.selected === 0 ? style.optionSelected : style.option} onClick={this.switchItem.bind(this,0)}>taxonomy</div>
-                    <div className={this.state.selected === 1 ? style.optionSelected : style.option} onClick={this.switchItem.bind(this,1)}>overview</div>
+                    <div className={this.state.selected === 0 ? style.optionSelected : style.option} onClick={this.switchItem.bind(this,0)}>overview</div>
+                    <div className={this.state.selected === 1 ? style.optionSelected : style.option} onClick={this.switchItem.bind(this,1)}>taxonomy</div>
                     <div className={this.state.selected === 2 ? style.optionSelected : style.option} onClick={this.switchItem.bind(this,2)}>use case</div>
                 </div>
 

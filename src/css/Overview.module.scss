@@ -1,27 +1,91 @@
 .container{
-  margin-top: 30px;
-  width: 660px;
-  padding: 20px;
-  border-radius: 5px;
-  background-color: white;
-  text-align: center;
-  color: #7e7e7e;
-  font-family: bigTitleFont;
-  margin-bottom: 20px;
+  .def{
+   width: 750px;
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
 
-  img{
-    width: 100%;
-  }
-
-  .desc{
-    font-weight: 600;
-    margin-top: 10px;
-    font-size: 1.1em;
-
-    strong{
+    .defName{
+      font-family: bigTitleFont;
       font-weight: 900;
-      color: #252525;
+      font-size: 1.2em;
+    }
+    .paper,.here{
+      font-weight: 700;
+      color: black;
     }
   }
 
+  .links{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+
+    // insure the width:height = 16:9
+    .left{
+      width: 430px;
+      height: 241px;
+
+    }
+    .right{
+      width: 320px;
+      padding: 20px;
+
+      .paperTitle{
+        font-family: bigTitleFont;
+        font-weight: 900;
+        font-size: 1.7em;
+        color: #000;
+        display: inline-block;
+      }
+
+      .paperSource{
+        margin-top: 10px;
+        color: #909090;
+      }
+
+      .author{
+        margin-top: 30px;
+        .item{
+          font-weight: 700;
+          color: black;
+          margin: 0 5px;
+        }
+      }
+
+      .paperTitle:hover,.author .item:hover{
+        color: #4cb2c1;
+      }
+    }
+  }
+
+  .body{
+    margin-top: 20px;
+    width: 750px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: left;
+    color: #7e7e7e;
+    font-family: bigTitleFont;
+    margin-bottom: 20px;
+
+    img{
+      width: 100%;
+    }
+
+    .desc{
+      font-weight: 600;
+      margin: 10px 0;
+      font-size: 1.1em;
+
+      strong{
+        font-weight: 900;
+        color: #252525;
+      }
+    }
+  }
 }

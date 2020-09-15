@@ -78,7 +78,7 @@ const defaultState = {
             "samples":[
                 {
                     "type":"Pedestal",
-                    "definition":"Pedestal means moving the camera horizontally.",
+                    "definition":"Pedestal means moving the camera vertically.",
                     "imageUrl":"assets/image/pedestal.gif",
                     "links":[
                         {
@@ -93,7 +93,7 @@ const defaultState = {
                 },
                 {
                     "type":"Truck",
-                    "definition":"Truck means moving the camera vertically.",
+                    "definition":"Truck means moving the camera horizontally.",
                     "imageUrl":"assets/image/truck.gif",
                     "links":[
                         {
@@ -123,7 +123,7 @@ const defaultState = {
                 },
                 {
                     "type":"Tilt",
-                    "definition":"Tilt means moving the camera in vertical, but the camera keeps a stable focus during the movement.",
+                    "definition":"Tilt means moving the camera in horizontal, but the camera keeps a stable focus during the movement.",
                     "imageUrl":"assets/image/tilt.gif",
                     "links":[
                         {
@@ -138,7 +138,7 @@ const defaultState = {
                 },
                 {
                     "type":"Pan",
-                    "definition":"Pan means moving the camera in horizontal, but the camera keeps a stable focus during the movement.",
+                    "definition":"Pan means moving the camera in vertical, but the camera keeps a stable focus during the movement.",
                     "imageUrl":"assets/image/pan.gif",
                     "links":[
                         {
