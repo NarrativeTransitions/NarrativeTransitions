@@ -34,13 +34,13 @@ class Overview extends React.Component {
                         <div className={style.paperSource}>IEEE VIS 2020 Short Paper</div>
                         {/*the authors of the paper*/}
                         <div className={style.author}>
-                            <a href="https://ahugh19.github.io/" className={style.item}>Junxiu Tang,</a>&nbsp;
-                            <a href="https://yulingyun.com/" className={style.item}>Lingyun Yu,</a>&nbsp;
-                            <a href="http://www.tantang.org/" className={style.item}>Tan Tang,</a><br/>
-                            <a href="http://www.cse.ust.hk/~xshuaa/" className={style.item}>Xinhuan Shu,</a>&nbsp;
-                            <a href="#" className={style.item}>Lu Ying,</a>&nbsp;
-                            <a href="#" className={style.item}>Yuhua Zhou,</a><br/>
-                            <a href="#" className={style.item}>Peiran Ren,</a>&nbsp;
+                            <a href="https://ahugh19.github.io/" className={style.item}>Junxiu Tang</a>,&nbsp;
+                            <a href="https://yulingyun.com/" className={style.item}>Lingyun Yu</a>,&nbsp;
+                            <a href="http://www.tantang.org/" className={style.item}>Tan Tang</a>,<br/>
+                            <a href="http://www.cse.ust.hk/~xshuaa/" className={style.item}>Xinhuan Shu</a>,&nbsp;
+                            <a href="#" className={style.item}>Lu Ying</a>,&nbsp;
+                            <a href="#" className={style.item}>Yuhua Zhou</a>,<br/>
+                            <a href="#" className={style.item}>Peiran Ren</a>,&nbsp;
                             <a href="http://www.ycwu.org/" className={style.item}>Yingcai Wu</a>
                         </div>
                     </div>
