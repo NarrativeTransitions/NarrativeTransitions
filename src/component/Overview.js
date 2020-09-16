@@ -39,7 +39,7 @@ class Overview extends React.Component {
                             <a href="http://www.tantang.org/" className={style.item}>Tan Tang</a>,<br/>
                             <a href="http://www.cse.ust.hk/~xshuaa/" className={style.item}>Xinhuan Shu</a>,&nbsp;
                             <a href="#" className={style.item}>Lu Ying</a>,&nbsp;
-                            <a href="#" className={style.item}>Yuhua Zhou</a>,<br/>
+                            <a href="https://zyh533.github.io/PersonalPage/#/homepage" className={style.item}>Yuhua Zhou</a>,<br/>
                             <a href="#" className={style.item}>Peiran Ren</a>,&nbsp;
                             <a href="http://www.ycwu.org/" className={style.item}>Yingcai Wu</a>
                         </div>
