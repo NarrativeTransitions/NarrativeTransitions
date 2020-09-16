@@ -13,8 +13,12 @@
   margin-bottom: 10px;
 
   .bigTitle{
-    color: #b8b8b8;
-    margin: 10px 0;
+    color: #8d8d8d;
+    margin: 20px 0;
+    font-size: 1.2em;
+    ul {
+      padding-inline-start: 0;
+    }
     .li {
       display: inline;
       list-style:none;
@@ -49,7 +53,7 @@
     font-weight: 600;
   }
   .defContainer{
-    width: 850px;
+    width: 1000px;
     margin-bottom: 20px;
     .def{
       background: white;

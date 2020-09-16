@@ -15,6 +15,9 @@
       font-weight: 700;
       color: black;
     }
+    .paper:hover,.here:hover{
+      color: #FF6471 ;
+    }
   }
 
   .links{
@@ -52,12 +55,12 @@
         .item{
           font-weight: 700;
           color: black;
-          margin: 0 5px;
+          // margin: 0 5px;
         }
       }
 
       .paperTitle:hover,.author .item:hover{
-        color: #4cb2c1;
+        color: #FF6471 ;
       }
     }
   }
@@ -79,7 +82,7 @@
 
     .desc{
       font-weight: 600;
-      margin: 10px 0;
+      margin: 20px 0;
       font-size: 1.1em;
 
       strong{
